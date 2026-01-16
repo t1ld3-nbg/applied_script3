@@ -32,7 +32,7 @@ with open(path, "w") as f:
     f.write(eicar_str)
 
 print("Filen skapad.")
-print("Väntar på antivirus/EDR-svar...")
+print("Väntar på AV/EDR-svar...")
 time.sleep(3)   # Väntar några sekunder på AV/EDR-respons
 print("Klart.\n")
 
